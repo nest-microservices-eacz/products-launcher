@@ -78,3 +78,4 @@ services:
       - PORT=3005
       - NATS_SERVERS=nats://nats-server:4222
       - MONGO_DB_URL=${AUTH_DB_URL}
+      - SECRET_JWT=${SECRET_JWT}
